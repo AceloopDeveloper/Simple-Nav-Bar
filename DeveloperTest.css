@@ -1,51 +1,56 @@
-nav{
-    background-color: black;
-    padding: 15px 25px; 
-    box-shadow: 0 0 5px 3px rgb(0, 0, 0,0.5 ) ;
-}
 body{
-    background-image: url(Asus.jpg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255) ;
     margin: 0;
 }
-.Title{
-    display: inline-block   ;
-    margin: 0;
-    color: aliceblue;
+nav{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+     left: 0;
+     background-color: rgb(22, 30, 73);
+     border-top-right-radius: 25px;
+     border-bottom-right-radius: 25px;
+     box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+}
+.brand-container{
+    text-align: center;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    top: -15px;
-    left: 15px;
-    font-size: 30px;
+    padding: 25px 0;
 }
-.links-container{
-    float: right;
-    position: relative;
-    top: 15px;
-}
-.logo{
-    display: inline-block;
+.brand-title{
+    margin: 0;
+    margin-top: 5px;
 }
 .links{
-    color: rgb(255, 255, 255);
-    text-decoration: none   ;
+    display: block;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin: 10px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0px 15px ;
-    transition: 0.5s;
+    transition: 0.2s;
+
 }
 .links:hover{
-    color: rgb(7, 188, 243);
+    background-color: white;
+    color: black;
 }
-.btn-links{
-    background-color: rgb(7,188,243);
-    padding:10px 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none   ;
-    border-radius: 25px;
+.profile-container{
     color: white;
-    transition: 0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
 }
-.btn-links:hover{
-    padding: 10px 30px;
+.main-container{
+    margin-left: 310px;
+}
+#dashboard{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+    font-size: 20px;
+    
 }
